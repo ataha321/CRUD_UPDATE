@@ -1,0 +1,70 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <script type="text/javascript" src="../../lib/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="account.css" />
+    <script src="animals.js"></script>
+    <script src="account.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Hamilton Pet Shelter</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <button
+            id="dog"
+            class="animal"
+            style="background: url(./images/dog.png); background-size: contain"
+          ></button>
+        </li>
+        <li>
+          <button
+            id="cat"
+            class="animal"
+            style="background: url(./images/cat.png); background-size: contain"
+          ></button>
+        </li>
+        <li>
+          <button
+            class="animal"
+            style="
+              background: url(account.png);
+              background-repeat: no-repeat;
+              background-size: contain;
+            "
+          ></button>
+        </li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <div class="access">
+        <h3>Enter your account details</h3>
+        <label for="id_Name"> Name </label><br /><input
+          type="text"
+          id="id_Name"
+          name="id_Name"
+          value=""
+          maxlength="25"
+          size="20"
+        /><br />
+        <label for="id_Passcode"> Pass code </label><br /><input
+          type="text"
+          id="id_Passcode"
+          name="id_Passcode"
+          value=""
+          maxlength="25"
+          size="20"
+        /><br />
+        <button id="login">Access Your Account</button>
+      </div>
+      <div class="animals"></div>
+    </div>
+  </body>
+</html>
