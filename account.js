@@ -1,3 +1,4 @@
+/** @format */
 let animals;
 let panel_class;
 
@@ -213,3 +214,4 @@ const createHandler = () => {
 };
 
 $(document).ready(setUp);
+
